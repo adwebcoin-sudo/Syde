@@ -1,0 +1,19 @@
+{
+  "name": "nabd-copy-server",
+  "version": "1.0.0",
+  "description": "سيرفر بسيط لربط حسابات المشتركين ونسخ صفقات الماستر عبر MetaApi CopyFactory",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "metaapi.cloud-sdk": "^29.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
